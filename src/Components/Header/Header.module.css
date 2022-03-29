@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+    background: rgb(49,44,139);
+    background: linear-gradient(90deg, rgba(49,44,139,1) 2%, rgba(0,212,255,1) 49%, rgba(9,9,121,1) 94%);
+}
+
+.header h1{
+    margin: 0;
+    padding: 20px;
+    text-align:center;
+    font-family: "Arial";
+    font-weight: 500;
+    font-size:45px;
+    color:#fff;
+}

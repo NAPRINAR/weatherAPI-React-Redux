@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: rgb(176,180,189);
+    background: radial-gradient(circle, rgba(176,180,189,1) 15%, rgba(45,38,39,1) 71%);
+}
+
+button{
+    cursor:pointer;
+}
+
+
+
+
+.weather__select{
+    width:100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.countryButton{
+    background: rgb(49,44,139);
+    background: linear-gradient(90deg, rgba(49,44,139,1) 2%, rgba(0,212,255,1) 49%, rgba(9,9,121,1) 94%);
+    padding:10px;
+    min-width:200px;
+    color:#fff;
+    font-size:20px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.weatherDisplay{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.selectedWeather{
+    border-radius:15px;
+    padding: 40px;
+    background: #fff;
+    min-width: 300px;
+    max-width:550px;
+    min-height: 300px;
+}
+
+
+.countryHeader{
+    text-align: center;
+    font-size:30px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.weatherMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.weatherMain span{
+    font-size:25px;
+    min-width:100px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.weatherDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weatherDetails span{
+
+    text-align: center;
+}
+
+.weatherDetails span{
+    font-weight: 600;
+    margin: 5px;
+    font-size:20px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.searchForm{
+    /*background: #000;*/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.searchForm input {
+    padding:8px;
+    min-width:300px;
+}
+
+.searchButton{
+    padding:10px;
+    margin-left: 10px;
+    background: rgb(49,44,139);
+    background: linear-gradient(90deg, rgba(49,44,139,1) 2%, rgba(0,212,255,1) 49%, rgba(9,9,121,1) 94%);
+    color:#fff;
+    border:none;
+    font-weight: 600;
+}
